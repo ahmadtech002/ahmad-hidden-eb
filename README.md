@@ -1,4 +1,4 @@
-# Dark Abyss Search
+# Ahmad Dark Search
 
 A mystical command-line tool that lets you explore a dark and mysterious realm.
 

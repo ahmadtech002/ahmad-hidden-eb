@@ -21,8 +21,6 @@ SKULL_ASCII_ART = """
     | \IIIIII/ |
     \          /
      `--------`
-
-                                         Ahmad Hidden Search Web
 """
 
 # Expanded search results by category
@@ -59,7 +57,7 @@ def display_skull_intro():
     for line in SKULL_ASCII_ART.split("\n"):
         console.print(Text(line, style="bold red"))
         time.sleep(0.1)
-    console.print("[bold purple]Welcome to Ahmad Dark Search Realm[/bold purple]\n", style="bold")
+    console.print("[bold purple]Welcome to Ahmad's Dark Search Realm[/bold purple]\n", style="bold")
     time.sleep(1)
 
 def search_dark_realm(query):
@@ -80,7 +78,7 @@ def search_dark_realm(query):
         time.sleep(random.uniform(0.05, 0.15))
 
     # Display categorized results with dynamic result count
-    table = Table(title="Dark Abyss Search Results")
+    table = Table(title="Ahmad's Dark Search Results")
     table.add_column("Category", justify="center", style="bold red")
     table.add_column("Result", justify="center", style="bold green")
 

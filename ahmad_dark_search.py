@@ -54,10 +54,10 @@ SEARCH_RESULTS = {
 
 def display_skull_intro():
     """Display skull-themed introduction with animated ASCII art."""
-    for line in SKULL_ASCII_ART.split("\n"):
-        console.print(Text(line, style="bold red"))  # Display each line of ASCII art
+    for line in SKULL_ASCII_ART.splitlines():  # Use splitlines() for safety
+        console.print(Text(line, style="bold red"))  # Proper syntax with straight quotes
         time.sleep(0.1)
-    console.print("[bold purple]Welcome to Ahmad's Dark Search Realm[/bold purple]\n", style="bold")
+    console.print("[bold purple]Welcome to Ahmad's Dark Search Realm[/bold purple]\n")
     time.sleep(1)
 
 def search_dark_realm(query):

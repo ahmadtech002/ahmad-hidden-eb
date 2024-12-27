@@ -10,3 +10,12 @@ A mystical command-line tool that lets you explore a dark and mysterious realm.
 
    ## Navigate into the folder
    cd ahmad-hidden-web
+
+## Requirements
+
+pip install rich
+
+
+## Run tool
+
+python dark_abyss_search.py

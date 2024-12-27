@@ -18,4 +18,4 @@ pip install rich
 
 ## Run tool
 
-python ahmad_hidden_search.py
+python ahmad_dark_search.py

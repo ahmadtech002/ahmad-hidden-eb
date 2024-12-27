@@ -18,4 +18,4 @@ pip install rich
 
 ## Run tool
 
-python dark_abyss_search.py
+python ahmad_hidden_search.py

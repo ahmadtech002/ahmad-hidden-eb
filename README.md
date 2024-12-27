@@ -9,4 +9,4 @@ A mystical command-line tool that lets you explore a dark and mysterious realm.
    git clone https://github.com/ahmadtech002/ahmad-hidden-web.git
 
    ## Navigate into the folder
-2. cd ahmad-hidden-web
+   cd ahmad-hidden-web
